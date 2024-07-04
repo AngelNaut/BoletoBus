@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BoletoBus.Common.Data.Base
 {
-    public abstract class BaseEntity
+    public abstract class BaseEntity<TType>
+
     {
+        public abstract TType Id { get; set; }
     }
 }

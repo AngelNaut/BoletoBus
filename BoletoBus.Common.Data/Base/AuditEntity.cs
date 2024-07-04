@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BoletoBus.Common.Data.Base
 {
-    internal class AuditEntity
+    public class AuditEntity<TType> : BaseEntity<TType>
     {
+        public override TType Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

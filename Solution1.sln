@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2136E2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{AD6388AF-8B5D-4D76-9209-CC408773ED03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Common.Data", "BoletoBus.Common.Data\BoletoBus.Common.Data.csproj", "{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Common.Data", "BoletoBus.Common.Data\BoletoBus.Common.Data.csproj", "{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Infraestructure.Data", "BoletoBus.Infraestructure.Data\BoletoBus.Infraestructure.Data.csproj", "{DFAEE719-2F7F-4699-8839-4C04989A3976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAEE719-2F7F-4699-8839-4C04989A3976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAEE719-2F7F-4699-8839-4C04989A3976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAEE719-2F7F-4699-8839-4C04989A3976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAEE719-2F7F-4699-8839-4C04989A3976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 		{2136E226-4856-4E52-97C7-50C401982B0F} = {FCC2046E-7F00-44F7-B18E-EC5CD1B62EC9}
 		{AD6388AF-8B5D-4D76-9209-CC408773ED03} = {FCC2046E-7F00-44F7-B18E-EC5CD1B62EC9}
 		{19A73BAF-6E72-4EDE-81FB-F4D757F4C69B} = {2136E226-4856-4E52-97C7-50C401982B0F}
+		{DFAEE719-2F7F-4699-8839-4C04989A3976} = {AD6388AF-8B5D-4D76-9209-CC408773ED03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B55A0BDB-8645-4EAA-AE6B-6F2F0E4FC5F9}

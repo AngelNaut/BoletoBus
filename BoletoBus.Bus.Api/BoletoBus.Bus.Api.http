@@ -1,0 +1,6 @@
+@BoletoBus.Bus.Api_HostAddress = http://localhost:5137
+
+GET {{BoletoBus.Bus.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

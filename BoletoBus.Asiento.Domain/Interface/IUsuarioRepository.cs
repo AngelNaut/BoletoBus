@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoletoBus.Ruta.Domain.Interface
+namespace BoletoBus.Viaje.Domain.Interface
 {
-    public interface IRutaRepository : IBaseRepository<Ruta.Domain.Entities.Ruta>
+    public interface IUsuarioRepository : IBaseRepository<Viaje.Domain.Entities.Usuario>
     {
     }
 }

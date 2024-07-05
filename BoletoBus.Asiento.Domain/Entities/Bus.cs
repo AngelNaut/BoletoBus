@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoletoBus.Bus.Domain.Entities
+namespace BoletoBus.Viaje.Domain.Entities
 {
     public class Bus : AuditEntity<int>
     {

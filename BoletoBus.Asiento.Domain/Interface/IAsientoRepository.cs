@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoletoBus.Asiento.Domain.Interface
+namespace BoletoBus.Viaje.Domain.Interface
 {
-    public interface IAsientoRepository : IBaseRepository<Asiento.Domain.Entities.Asiento>
+    public interface IAsientoRepository : IBaseRepository<Viaje.Domain.Entities.Asiento>
     {
     }
 }

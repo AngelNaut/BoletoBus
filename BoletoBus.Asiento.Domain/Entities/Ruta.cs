@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace BoletoBus.Viaje.Domain.Entities
 {
-    public class Asiento : AuditEntity<int>
+    public class Ruta : AuditEntity<int>
     {
-        [Column("IdAsiento")]
+        [Column("IdRuta")]
         public override int Id { get => base.Id; set => base.Id = value; }
     }
 }
